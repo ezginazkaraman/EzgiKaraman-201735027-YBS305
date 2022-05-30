@@ -1,0 +1,72 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>201735027-Hospital_Project</Name>
+    <Description>&lt;Uygun açıklama yok&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>201735027-Hospital_Project</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="201735027-Hospital_Project.csproj" File="201735027-Hospital_Project.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <Folder Name="DataSources" TargetFolderName="DataSources">
+          <ProjectItem ReplaceParameters="true" TargetFileName="System.Data.SqlClient.SqlConnection.datasource">System.Data.SqlClient.SqlConnection.datasource</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmBransPaneli.cs">FrmBransPaneli.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmBransPaneli.Designer.cs">FrmBransPaneli.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmBransPaneli.resx">FrmBransPaneli.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorBilgiDuzenle.cs">FrmDoktorBilgiDuzenle.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorBilgiDuzenle.Designer.cs">FrmDoktorBilgiDuzenle.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorBilgiDuzenle.resx">FrmDoktorBilgiDuzenle.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorDetay.cs">FrmDoktorDetay.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorDetay.Designer.cs">FrmDoktorDetay.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorDetay.resx">FrmDoktorDetay.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorGiris.cs">FrmDoktorGiris.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorGiris.Designer.cs">FrmDoktorGiris.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorGiris.resx">FrmDoktorGiris.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorPaneli.cs">FrmDoktorPaneli.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorPaneli.Designer.cs">FrmDoktorPaneli.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDoktorPaneli.resx">FrmDoktorPaneli.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDuyurular.cs">FrmDuyurular.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDuyurular.Designer.cs">FrmDuyurular.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmDuyurular.resx">FrmDuyurular.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmGirisler.cs">FrmGirisler.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmGirisler.Designer.cs">FrmGirisler.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmGirisler.resx">FrmGirisler.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmHastaBilgiDuzenle.cs">FrmHastaBilgiDuzenle.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmHastaBilgiDuzenle.Designer.cs">FrmHastaBilgiDuzenle.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmHastaBilgiDuzenle.resx">FrmHastaBilgiDuzenle.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmHastaDetay.cs">FrmHastaDetay.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmHastaDetay.Designer.cs">FrmHastaDetay.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmHastaDetay.resx">FrmHastaDetay.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="frmHastaGiris.cs">frmHastaGiris.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="frmHastaGiris.Designer.cs">frmHastaGiris.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="frmHastaGiris.resx">frmHastaGiris.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="frmHastaKayıt.cs">vstg0001.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="frmHastaKayıt.Designer.cs">vstg0002.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="frmHastaKayıt.resx">vstg0003.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmRandevuListe.cs">FrmRandevuListe.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmRandevuListe.Designer.cs">FrmRandevuListe.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmRandevuListe.resx">FrmRandevuListe.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmSekreterDetay.cs">FrmSekreterDetay.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmSekreterDetay.Designer.cs">FrmSekreterDetay.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmSekreterDetay.resx">FrmSekreterDetay.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmSekreterGiris.cs">FrmSekreterGiris.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmSekreterGiris.Designer.cs">FrmSekreterGiris.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FrmSekreterGiris.resx">FrmSekreterGiris.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="sqlbaglantisi.cs">sqlbaglantisi.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
